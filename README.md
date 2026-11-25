@@ -17,10 +17,7 @@ A lightweight, fast, no-nonsense PDF viewer for Windows. No ads, no subscription
 - **Zero Bloat:** No ads, no popups, and uses 0% CPU when sitting idle.
 - **Smooth Controls:**
     - **Drag & Drop** any `.pdf` file into the window to open it
-    - **Mouse Wheel** to scroll smoothly (`Shift + Wheel` for horizontal scroll)
-    - **Click & Drag** to pan around pages
     - **`Ctrl + Wheel` or `+` / `-`** to zoom in and out (`0` to reset zoom)
-    - **Arrow Keys / `PageUp` / `PageDown` / `Space` / `Home` / `End`** for keyboard navigation
 
 ## Building from Source
 
@@ -31,8 +28,4 @@ If you want to tweak the code or add your own features:
     ```bash
     cargo build --release
     ```
-3. Download `pdfium.dll` (Windows x64) from [bblanchon/pdfium-binaries](https://github.com) and place it next to the built `.exe` in `target/release/`.
-
-## License
-
-Free to use, modify, and share however you like.
+3. Download `pdfium.dll` (Windows x64) from [bblanchon/pdfium-binaries](https://github.com/bblanchon/pdfium-binaries/releases) and place it next to the built `.exe` in `target/release/`.
